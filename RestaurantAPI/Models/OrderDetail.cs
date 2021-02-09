@@ -12,8 +12,10 @@ namespace RestaurantAPI.Models
         public long OrderDetailId { get; set; }
 
         public long OrderMasterId { get; set; }
+        public OrderMaster OrderMaster { get; set; }
 
         public int FoodItemId { get; set; }
+        public FoodItem FoodItem { get; set; }
 
         public decimal FoodItemPrice { get; set; }
 
